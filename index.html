@@ -1,0 +1,1255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="5 Fold Junk Removal provides dependable junk removal, hauling, construction debris removal, commercial hauling, garage cleanouts, and appliance removal in Fort Worth, TX." />
+  <meta name="theme-color" content="#173b34" />
+  <title>5 Fold Junk Removal | Fort Worth, TX</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <!-- FAQ + Local Business structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "5 Fold Junk Removal",
+    "image": "https://example.com/logo.png",
+    "telephone": "+1-817-842-7036",
+    "email": "Info@5FoldJunkerRemoval.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "10425 Mituna St",
+      "addressLocality": "Fort Worth",
+      "addressRegion": "TX",
+      "postalCode": "76179",
+      "addressCountry": "US"
+    },
+    "openingHours": [
+      "Mo-Sa 08:00-23:30",
+      "Su 09:00-17:00"
+    ],
+    "areaServed": "Fort Worth, TX"
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What types of junk do you remove?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We remove unwanted furniture, household clutter, general debris, appliances, garage items, and other unwanted materials that are suitable for our junk removal and hauling services."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you offer construction debris removal?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Our construction debris removal service is designed to help clear renovation and job-site debris so your property can be cleaner and easier to use."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can you clean out a garage?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Our garage clean out service helps remove unwanted boxes, furniture, household items, tools, and general clutter from garages."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you provide commercial hauling?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. We provide commercial hauling solutions for businesses that need unwanted materials, clutter, and general debris removed efficiently."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I schedule junk removal?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Call 5 Fold Junk Removal at (817) 842-7036 or email Info@5FoldJunkerRemoval.com to discuss your junk removal needs and schedule service."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --green: #173b34;
+      --green-2: #23564b;
+      --orange: #d77a2b;
+      --cream: #f7f5ef;
+      --white: #ffffff;
+      --dark: #18231f;
+      --muted: #65716d;
+      --border: #e5e9e6;
+      --shadow: 0 14px 40px rgba(18, 42, 35, .10);
+      --radius: 18px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: "Inter", sans-serif;
+      color: var(--dark);
+      background: #fff;
+      line-height: 1.65;
+      overflow-x: hidden;
+    }
+    img { max-width: 100%; display: block; }
+    a { text-decoration: none; color: inherit; }
+    ul { list-style: none; }
+
+    .container {
+      width: min(1180px, 92%);
+      margin: auto;
+    }
+
+    /* ================= HEADER ================= */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(255,255,255,.96);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(0,0,0,.06);
+    }
+
+    .header-inner {
+      min-height: 82px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      min-width: 0;
+      width: min(270px, 30vw);
+      height: 64px;
+      overflow: hidden;
+    }
+
+    .brand img {
+      display: block;
+      width: 100%;
+      max-width: 270px;
+      max-height: 58px;
+      height: auto;
+      object-fit: contain;
+      object-position: left center;
+    }
+
+    .nav-list {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+    }
+
+    .nav-list a {
+      padding: 10px 13px;
+      border-radius: 9px;
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--green);
+      transition: .25s ease;
+    }
+
+    .nav-list a:hover {
+      background: var(--green);
+      color: #fff;
+    }
+
+    .header-cta {
+      background: var(--orange) !important;
+      color: #fff !important;
+      padding: 11px 17px !important;
+    }
+
+    .menu-toggle {
+      display: none;
+      border: 0;
+      background: var(--green);
+      color: #fff;
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    /* ================= HERO SLIDER ================= */
+    .hero {
+      position: relative;
+      min-height: 650px;
+      overflow: hidden;
+      background: #111;
+    }
+
+    .slides {
+      position: relative;
+      min-height: 650px;
+    }
+
+    .slide {
+      position: absolute;
+      inset: 0;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity .7s ease;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .slide.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .slide::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,.52);
+    }
+
+    .slide-content {
+      position: relative;
+      z-index: 2;
+      min-height: 650px;
+      display: flex;
+      align-items: center;
+    }
+
+    .hero-copy {
+      max-width: 730px;
+      color: #fff;
+      padding: 70px 0;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      color: #fff;
+      background: rgba(215,122,43,.92);
+      padding: 8px 14px;
+      border-radius: 100px;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 {
+      font-family: "Poppins", sans-serif;
+      font-size: clamp(40px, 6vw, 74px);
+      line-height: 1.08;
+      margin-bottom: 20px;
+      letter-spacing: -1.8px;
+    }
+
+    .hero p {
+      max-width: 690px;
+      font-size: clamp(16px, 2vw, 20px);
+      color: rgba(255,255,255,.92);
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      border-radius: 10px;
+      padding: 13px 21px;
+      font-weight: 800;
+      font-size: 14px;
+      transition: transform .25s ease, box-shadow .25s ease, background .25s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 24px rgba(0,0,0,.16);
+    }
+
+    .btn-primary { background: var(--orange); color: #fff; }
+    .btn-light { background: #fff; color: var(--green); }
+
+    .slider-arrow {
+      position: absolute;
+      z-index: 5;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 1px solid rgba(255,255,255,.4);
+      background: rgba(0,0,0,.35);
+      color: #fff;
+      cursor: pointer;
+      font-size: 19px;
+      transition: .25s ease;
+    }
+
+    .slider-arrow:hover { background: var(--orange); }
+    .prev { left: 25px; }
+    .next { right: 25px; }
+
+    .dots {
+      position: absolute;
+      z-index: 6;
+      bottom: 28px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 9px;
+    }
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      border: 0;
+      border-radius: 50%;
+      background: rgba(255,255,255,.55);
+      cursor: pointer;
+      transition: .25s ease;
+    }
+
+    .dot.active {
+      width: 28px;
+      border-radius: 20px;
+      background: var(--orange);
+    }
+
+    /* ================= SECTIONS ================= */
+    section { scroll-margin-top: 90px; }
+
+    .section {
+      padding: 90px 0;
+    }
+
+    .section-alt { background: var(--cream); }
+
+    .section-heading {
+      max-width: 730px;
+      margin: 0 auto 50px;
+      text-align: center;
+    }
+
+    .section-heading .mini {
+      color: var(--orange);
+      font-weight: 800;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      margin-bottom: 9px;
+    }
+
+    .section-heading h2 {
+      font-family: "Poppins", sans-serif;
+      font-size: clamp(30px, 4vw, 45px);
+      line-height: 1.15;
+      color: var(--green);
+      margin-bottom: 13px;
+    }
+
+    .section-heading p { color: var(--muted); }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 55px;
+      align-items: center;
+    }
+
+    .about-copy h2, .why-copy h2, .contact-copy h2 {
+      font-family: "Poppins", sans-serif;
+      color: var(--green);
+      font-size: clamp(30px, 4vw, 45px);
+      line-height: 1.2;
+      margin-bottom: 18px;
+    }
+
+    .about-copy p, .why-copy p {
+      color: var(--muted);
+      margin-bottom: 25px;
+    }
+
+    .image-card {
+      overflow: hidden;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      background: #eee;
+    }
+
+    .image-card img {
+      width: 100%;
+      height: 430px;
+      object-fit: cover;
+    }
+
+    /* ================= SERVICES ================= */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+    }
+
+    .service-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: 0 7px 25px rgba(18,42,35,.06);
+      transition: .3s ease;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .service-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow);
+    }
+
+    .service-card img {
+      width: 100%;
+      height: 215px;
+      object-fit: cover;
+    }
+
+    .service-body {
+      padding: 23px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    .service-body h3 {
+      color: var(--green);
+      font-family: "Poppins", sans-serif;
+      font-size: 21px;
+      margin-bottom: 11px;
+    }
+
+    .service-body p {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 20px;
+      flex: 1;
+    }
+
+    .learn {
+      color: var(--orange);
+      font-weight: 800;
+      font-size: 14px;
+      display: inline-flex;
+      gap: 7px;
+      align-items: center;
+    }
+
+    /* ================= REVIEWS ================= */
+    .reviews-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+
+    .review-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 25px;
+      box-shadow: 0 8px 25px rgba(18,42,35,.06);
+    }
+
+    .review-card h3 {
+      color: var(--green);
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    .review-card p {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 13px;
+    }
+
+    .stars { color: var(--orange); letter-spacing: 2px; font-size: 15px; }
+
+    /* ================= FAQ ================= */
+    .faq-wrap {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 50px;
+      align-items: center;
+    }
+
+    .faq-list details {
+      border-bottom: 1px solid var(--border);
+      padding: 3px 0;
+    }
+
+    .faq-list summary {
+      list-style: none;
+      cursor: pointer;
+      padding: 17px 3px;
+      font-weight: 800;
+      color: var(--green);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 15px;
+    }
+
+    .faq-list summary::-webkit-details-marker { display: none; }
+
+    .faq-list summary::after {
+      content: "\f078";
+      font-family: "Font Awesome 6 Free";
+      font-weight: 900;
+      color: var(--orange);
+      transition: transform .25s ease;
+      flex-shrink: 0;
+    }
+
+    .faq-list details[open] summary::after {
+      transform: rotate(180deg);
+    }
+
+    .faq-answer {
+      color: var(--muted);
+      font-size: 14px;
+      padding: 0 35px 18px 3px;
+    }
+
+    /* ================= CONTACT ================= */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 35px;
+      align-items: stretch;
+    }
+
+    .contact-box {
+      background: var(--cream);
+      border-radius: var(--radius);
+      padding: 35px;
+    }
+
+    .contact-item {
+      display: flex;
+      gap: 15px;
+      margin: 19px 0;
+      align-items: flex-start;
+    }
+
+    .contact-icon {
+      flex: 0 0 43px;
+      height: 43px;
+      display: grid;
+      place-items: center;
+      background: var(--green);
+      color: #fff;
+      border-radius: 10px;
+    }
+
+    .contact-item strong {
+      display: block;
+      color: var(--green);
+      margin-bottom: 2px;
+    }
+
+    .contact-item span, .contact-item a {
+      color: var(--muted);
+      font-size: 14px;
+      overflow-wrap: anywhere;
+    }
+
+    .map-wrap {
+      min-height: 450px;
+      overflow: hidden;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .map-wrap iframe {
+      width: 100%;
+      height: 100%;
+      min-height: 450px;
+      border: 0;
+    }
+
+    /* ================= FOOTER ================= */
+    footer {
+      background: var(--green);
+      color: #fff;
+    }
+
+    .footer-main {
+      padding: 65px 0 45px;
+      display: grid;
+      grid-template-columns: 1.2fr .8fr 1fr;
+      gap: 50px;
+    }
+
+    .footer-logo {
+      display: block;
+      width: min(270px, 100%);
+      max-height: 78px;
+      height: auto;
+      object-fit: contain;
+      background: #fff;
+      padding: 10px 14px;
+      border-radius: 10px;
+      margin-bottom: 18px;
+    }
+
+    .footer-col p {
+      color: rgba(255,255,255,.76);
+      font-size: 14px;
+      margin-bottom: 20px;
+      max-width: 400px;
+    }
+
+    .footer-col h3 {
+      font-family: "Poppins", sans-serif;
+      margin-bottom: 17px;
+      font-size: 18px;
+    }
+
+    .footer-nav a {
+      display: block;
+      color: rgba(255,255,255,.78);
+      margin: 9px 0;
+      font-size: 14px;
+      transition: .2s ease;
+    }
+
+    .footer-nav a:hover { color: #fff; padding-left: 4px; }
+
+    .footer-contact li {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      color: rgba(255,255,255,.8);
+      font-size: 14px;
+      margin: 14px 0;
+    }
+
+    .footer-contact i {
+      width: 19px;
+      color: var(--orange);
+      margin-top: 4px;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,.13);
+      padding: 22px 0 24px;
+      text-align: center;
+    }
+
+    .footer-bottom-menu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px 22px;
+      margin-bottom: 12px;
+    }
+
+    .footer-bottom-menu a {
+      color: rgba(255,255,255,.82);
+      font-size: 13px;
+      font-weight: 700;
+      transition: .2s ease;
+    }
+
+    .footer-bottom-menu a:hover { color: #fff; }
+
+    .footer-bottom-menu a:not(:last-child)::after {
+      content: "•";
+      color: var(--orange);
+      margin-left: 22px;
+    }
+
+    .copyright {
+      color: var(--orange);
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: .02em;
+      text-align: center;
+    }
+
+    /* ================= RESPONSIVE ================= */
+    @media (max-width: 1000px) {
+      .services-grid { grid-template-columns: repeat(2, 1fr); }
+      .reviews-grid { grid-template-columns: repeat(2, 1fr); }
+      .footer-main { grid-template-columns: 1fr 1fr; }
+      .footer-col:first-child { grid-column: 1 / -1; }
+    }
+
+    @media (max-width: 800px) {
+      .header-inner { min-height: 72px; }
+      .menu-toggle { display: block; }
+      .main-nav {
+        position: absolute;
+        top: 72px;
+        left: 0;
+        right: 0;
+        background: #fff;
+        padding: 12px 4%;
+        border-bottom: 1px solid var(--border);
+        box-shadow: 0 15px 25px rgba(0,0,0,.08);
+        display: none;
+      }
+      .main-nav.open { display: block; }
+      .nav-list { flex-direction: column; align-items: stretch; }
+      .nav-list a { display: block; }
+      .header-cta { text-align: center; }
+
+      .hero, .slides, .slide-content { min-height: 600px; }
+      .hero-copy { padding: 55px 0; }
+      .slider-arrow { width: 42px; height: 42px; }
+      .prev { left: 12px; } .next { right: 12px; }
+
+      .two-col, .faq-wrap, .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+      }
+
+      .two-col .image-card { order: -1; }
+      .image-card img { height: 350px; }
+    }
+
+    @media (max-width: 600px) {
+      .container { width: min(92%, 500px); }
+      .section { padding: 65px 0; }
+      .brand {
+        width: min(195px, 58vw);
+        height: 58px;
+      }
+
+      .brand img {
+        width: 100%;
+        max-width: 195px;
+        max-height: 52px;
+      }
+      .hero, .slides, .slide-content { min-height: 620px; }
+      .hero h1 { font-size: 42px; }
+      .hero p { font-size: 15px; }
+      .hero-copy { padding: 45px 15px; margin-left: 25px; }
+      .services-grid, .reviews-grid { grid-template-columns: 1fr; }
+      .footer-main { grid-template-columns: 1fr; gap: 32px; }
+      .footer-col:first-child { grid-column: auto; }
+      .contact-box { padding: 25px; }
+      .map-wrap, .map-wrap iframe { min-height: 360px; }
+      .footer-map iframe { height: 250px; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="5 Fold Junk Removal Home">
+        <img src="data:image/png;base64,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" alt="5 Fold Junk Removal logo">
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#faq">FAQs</a></li>
+          <li><a href="https://maps.app.goo.gl/gLVrraZPKAANub1o8" class="header-cta">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ================= HERO / BANNER ================= -->
+    <section class="hero" id="home" aria-label="Junk removal hero slider">
+      <div class="slides">
+
+        <article class="slide active" style="background-image:url('https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1800&q=85');">
+          <div class="container slide-content">
+            <div class="hero-copy">
+              <span class="eyebrow"><i class="fa-solid fa-truck"></i> Fort Worth, Texas</span>
+              <h1>Clear the Clutter. Reclaim Your Space.</h1>
+              <p>Dependable junk removal and hauling services for homes, garages, businesses, and properties across Fort Worth, TX.</p>
+              <a href="#contact" class="btn btn-primary">Schedule Service <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="slide" style="background-image:url('https://images.unsplash.com/photo-1604187351574-c75ca79f5807?auto=format&fit=crop&w=1800&q=85');">
+          <div class="container slide-content">
+            <div class="hero-copy">
+              <span class="eyebrow"><i class="fa-solid fa-broom"></i> Hassle-Free Cleanup</span>
+              <h1>Fast, Careful & Convenient Junk Removal</h1>
+              <p>From unwanted furniture and household clutter to general debris, we make cleanup simple and stress-free.</p>
+              <a href="tel:+18178427036" class="btn btn-primary">Call (817) 842-7036 <i class="fa-solid fa-phone"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="slide" style="background-image:url('https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?auto=format&fit=crop&w=1800&q=85');">
+          <div class="container slide-content">
+            <div class="hero-copy">
+              <span class="eyebrow"><i class="fa-solid fa-warehouse"></i> Home & Business</span>
+              <h1>More Space Starts With One Simple Call</h1>
+              <p>Choose practical hauling, cleanouts, debris removal, and appliance removal solutions designed around your needs.</p>
+              <a href="#services" class="btn btn-light">Explore Our Services <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="slide" style="background-image:url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1800&q=85');">
+          <div class="container slide-content">
+            <div class="hero-copy">
+              <span class="eyebrow"><i class="fa-solid fa-house"></i> Local Junk Removal</span>
+              <h1>A Cleaner Property Without the Heavy Lifting</h1>
+              <p>Let our team handle the loading and hauling while you get back to enjoying a cleaner, more usable property.</p>
+              <a href="#about" class="btn btn-primary">About 5 Fold Junk Removal <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <button class="slider-arrow prev" id="prevSlide" aria-label="Previous slide">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+      <button class="slider-arrow next" id="nextSlide" aria-label="Next slide">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+
+      <div class="dots" aria-label="Slider navigation">
+        <button class="dot active" data-slide="0" aria-label="Go to slide 1"></button>
+        <button class="dot" data-slide="1" aria-label="Go to slide 2"></button>
+        <button class="dot" data-slide="2" aria-label="Go to slide 3"></button>
+        <button class="dot" data-slide="3" aria-label="Go to slide 4"></button>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section" id="about">
+      <div class="container two-col">
+        <div class="about-copy">
+          <div class="section-heading" style="text-align:left;margin:0 0 22px;">
+            <div class="mini">About Us</div>
+            <h2>Reliable Junk Removal in Fort Worth, TX</h2>
+          </div>
+          <p>
+            Keep your property clean and clutter-free with 5 Fold Junk Removal, providing dependable junk removal and hauling services in Fort Worth, TX. From unwanted furniture and household clutter to general debris and items taking up valuable space, we offer convenient solutions designed around your needs. Our team focuses on prompt service, careful handling, and hassle-free cleanup. Call today to schedule your junk removal and reclaim your space!
+          </p>
+          <a href="https://maps.app.goo.gl/gLVrraZPKAANub1o8" class="btn btn-primary">About Us <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="image-card">
+          <img src="https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=85" alt="Junk removal and hauling equipment">
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SERVICES ================= -->
+    <section class="section section-alt" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <div class="mini">What We Do</div>
+          <h2>Our Junk Removal Services</h2>
+          <p>Practical cleanup and hauling solutions for residential and commercial properties in Fort Worth.</p>
+        </div>
+
+        <div class="services-grid">
+
+          <article class="service-card">
+            <img src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=1000&q=85" alt="Junk removal service">
+            <div class="service-body">
+              <h3>Junk Removal</h3>
+              <p>Clear unwanted household items, furniture, clutter, and general junk without the hassle. Our junk removal service is designed for convenient property cleanup, helping you regain useful space while our team handles the heavy lifting and hauling.</p>
+              <a class="learn" href="https://maps.app.goo.gl/gLVrraZPKAANub1o8">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <img src="https://images.unsplash.com/photo-1590496793929-36417d3117de?auto=format&fit=crop&w=1000&q=85" alt="Hauling service">
+            <div class="service-body">
+              <h3>Hauling</h3>
+              <p>Need unwanted materials moved away? Our hauling service provides a practical solution for bulky items, property clutter, and general materials. We focus on prompt pickup, careful handling, and a straightforward experience from scheduling through final cleanup.</p>
+              <a class="learn" href="https://maps.app.goo.gl/gLVrraZPKAANub1o8">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1000&q=85" alt="Construction debris removal">
+            <div class="service-body">
+              <h3>Construction Debris Removal</h3>
+              <p>Renovation projects can leave behind piles of unwanted material. Our construction debris removal service helps clear general job-site debris and keeps your property more organized, usable, and ready for the next stage of your project.</p>
+              <a class="learn" href="https://maps.app.goo.gl/gLVrraZPKAANub1o8">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1000&q=85" alt="Commercial hauling service">
+            <div class="service-body">
+              <h3>Commercial Hauling Service</h3>
+              <p>Businesses often need reliable removal for unwanted materials, clutter, and general debris. Our commercial hauling service provides convenient scheduling and practical cleanup support designed to help keep commercial properties clean and functional.</p>
+              <a class="learn" href="https://maps.app.goo.gl/gLVrraZPKAANub1o8">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1000&q=85" alt="Garage clean out service">
+            <div class="service-body">
+              <h3>Garage Clean Out Service</h3>
+              <p>Turn an overcrowded garage into useful space again. We can help remove unwanted boxes, furniture, household items, tools, and general clutter, making garage cleanouts easier while taking care of the heavy lifting and hauling.</p>
+              <a class="learn" href="https://maps.app.goo.gl/gLVrraZPKAANub1o8">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <img src="https://images.unsplash.com/photo-1581783898377-1c85bf937427?auto=format&fit=crop&w=1000&q=85" alt="Appliance removal service">
+            <div class="service-body">
+              <h3>Appliance Removal Service</h3>
+              <p>Old appliances can be difficult to move and take up valuable space. Our appliance removal service helps with the safe loading and hauling of unwanted appliances, providing a convenient way to clear your home, garage, or property.</p>
+              <a class="learn" href="https://maps.app.goo.gl/gLVrraZPKAANub1o8">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= REVIEWS ================= -->
+    <section class="section" id="reviews">
+      <div class="container">
+        <div class="section-heading">
+          <div class="mini">Customer Reviews</div>
+          <h2>What Customers Say</h2>
+          <p>Sample review layout for your Web 2.0 site. Replace these with verified customer reviews before publishing.</p>
+        </div>
+
+        <div class="reviews-grid">
+          <article class="review-card">
+            <h3>Michael Anderson</h3>
+            <p>Fast junk removal and very easy scheduling process.</p>
+            <div class="stars" aria-label="5 star rating">★★★★★</div>
+          </article>
+          <article class="review-card">
+            <h3>Sarah Mitchell</h3>
+            <p>They cleared our garage quickly and professionally.</p>
+            <div class="stars" aria-label="5 star rating">★★★★★</div>
+          </article>
+          <article class="review-card">
+            <h3>James Carter</h3>
+            <p>Great hauling service with careful property handling.</p>
+            <div class="stars" aria-label="5 star rating">★★★★★</div>
+          </article>
+          <article class="review-card">
+            <h3>Emily Johnson</h3>
+            <p>Our unwanted furniture was removed without hassle.</p>
+            <div class="stars" aria-label="5 star rating">★★★★★</div>
+          </article>
+          <article class="review-card">
+            <h3>David Wilson</h3>
+            <p>Helpful team and convenient construction debris cleanup.</p>
+            <div class="stars" aria-label="5 star rating">★★★★★</div>
+          </article>
+          <article class="review-card">
+            <h3>Jessica Brown</h3>
+            <p>Professional appliance removal and friendly service.</p>
+            <div class="stars" aria-label="5 star rating">★★★★★</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FAQ ================= -->
+    <section class="section section-alt" id="faq">
+      <div class="container">
+        <div class="section-heading">
+          <div class="mini">FAQ</div>
+          <h2>Frequently Asked Questions</h2>
+          <p>Click a question to expand the answer.</p>
+        </div>
+
+        <div class="faq-wrap">
+          <div class="faq-list">
+            <details>
+              <summary>What types of junk do you remove?</summary>
+              <div class="faq-answer">We remove unwanted furniture, household clutter, general debris, appliances, garage items, and other unwanted materials that are suitable for our junk removal and hauling services.</div>
+            </details>
+            <details>
+              <summary>Do you offer construction debris removal?</summary>
+              <div class="faq-answer">Yes. Our construction debris removal service helps clear renovation and job-site debris so your property can be cleaner and easier to use.</div>
+            </details>
+            <details>
+              <summary>Can you clean out a garage?</summary>
+              <div class="faq-answer">Yes. Our garage clean out service helps remove unwanted boxes, furniture, household items, tools, and general clutter from garages.</div>
+            </details>
+            <details>
+              <summary>Do you provide commercial hauling?</summary>
+              <div class="faq-answer">Yes. We provide commercial hauling solutions for businesses that need unwanted materials, clutter, and general debris removed efficiently.</div>
+            </details>
+            <details>
+              <summary>How do I schedule junk removal?</summary>
+              <div class="faq-answer">Call 5 Fold Junk Removal at (817) 842-7036 or email Info@5FoldJunkerRemoval.com to discuss your junk removal needs and schedule service.</div>
+            </details>
+          </div>
+
+          <div class="image-card">
+            <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1200&q=85" alt="Professional junk removal service">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= WHY CHOOSE US ================= -->
+    <section class="section" id="why-us">
+      <div class="container two-col">
+        <div class="why-copy">
+          <div class="section-heading" style="text-align:left;margin:0 0 22px;">
+            <div class="mini">Why Choose Us</div>
+            <h2>A Simple, Dependable Way to Clear Your Property</h2>
+          </div>
+          <p>
+            5 Fold Junk Removal focuses on prompt service, careful handling, convenient scheduling, and hassle-free cleanup. Whether you need household clutter removed, a garage cleared, or debris hauled away, we provide practical solutions built around your property and needs.
+          </p>
+          <a href="tel:+18178427036" class="btn btn-primary">Call Us Today <i class="fa-solid fa-phone"></i></a>
+        </div>
+
+        <div class="image-card">
+          <img src="https://images.unsplash.com/photo-1604187351574-c75ca79f5807?auto=format&fit=crop&w=1200&q=85" alt="Junk removal cleanup service">
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <div class="mini">Contact Us</div>
+          <h2>Let's Reclaim Your Space</h2>
+          <p>Contact 5 Fold Junk Removal to discuss your junk removal and hauling needs in Fort Worth.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-box">
+            <div class="contact-copy">
+              <h2>Get In Touch</h2>
+              <p style="color:var(--muted);">Call, email, or visit our address for more information about our services.</p>
+
+              <div class="contact-item">
+                <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                <div>
+                  <strong>Phone</strong>
+                  <a href="tel:+18178427036">(817) 842-7036</a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div>
+                  <strong>Email</strong>
+                  <a href="mailto:Info@5FoldJunkerRemoval.com">Info@5FoldJunkerRemoval.com</a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div>
+                  <strong>Address</strong>
+                  <span>10425 Mituna St, Fort Worth, TX 76179</span>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon"><i class="fa-solid fa-clock"></i></div>
+                <div>
+                  <strong>Business Hours</strong>
+                  <span>Mon-Sat: 8 AM–11:30 PM<br>Sunday: 9 AM–5 PM</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="map-wrap">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.4577596748777!2d-97.410449!3d32.912502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2696aa13174824d3%3A0x9436af5ddc1564eb!2s5%20Fold%20Junker%20Removal!5e0!3m2!1sen!2s!4v1789767014471!5m2!1sen!2s"
+              width="600"
+              height="450"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"
+              title="5 Fold Junk Removal Google Map">
+            </iframe>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer>
+    <div class="container footer-main">
+
+      <div class="footer-col">
+        <img class="footer-logo" src="data:image/png;base64,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" alt="5 Fold Junk Removal logo">
+        <p>
+          5 Fold Junk Removal provides dependable junk removal and hauling solutions in Fort Worth, TX. We focus on prompt service, careful handling, and hassle-free cleanup for residential and commercial properties.
+        </p>
+        <a href="https://maps.app.goo.gl/gLVrraZPKAANub1o8" class="btn btn-primary">Join Us <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+
+      <div class="footer-col">
+        <h3>Navigation Menu</h3>
+        <ul class="footer-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#faq">FAQs</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3>Contact Information</h3>
+        <ul class="footer-contact">
+          <li><i class="fa-solid fa-envelope"></i><a href="mailto:Info@5FoldJunkerRemoval.com">Info@5FoldJunkerRemoval.com</a></li>
+          <li><i class="fa-solid fa-phone"></i><a href="tel:+18178427036">(817) 842-7036</a></li>
+          <li><i class="fa-solid fa-location-dot"></i><span>10425 Mituna St, Fort Worth, TX 76179</span></li>
+          <li><i class="fa-solid fa-clock"></i><span>Mon-Sat: 8 AM–11:30 PM<br>Sunday: 9 AM–5 PM</span></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="copyright">© 2026 All Rights Reserved By 5 Fold Junk Removal</div>
+    </div>
+  </footer>
+  <script>
+    // ================= MOBILE MENU =================
+    const menuToggle = document.getElementById("menuToggle");
+    const mainNav = document.getElementById("mainNav");
+
+    menuToggle.addEventListener("click", () => {
+      const isOpen = mainNav.classList.toggle("open");
+      menuToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+      menuToggle.innerHTML = isOpen
+        ? '<i class="fa-solid fa-xmark"></i>'
+        : '<i class="fa-solid fa-bars"></i>';
+    });
+
+    document.querySelectorAll(".nav-list a").forEach(link => {
+      link.addEventListener("click", () => {
+        mainNav.classList.remove("open");
+        menuToggle.setAttribute("aria-expanded", "false");
+        menuToggle.innerHTML = '<i class="fa-solid fa-bars"></i>';
+      });
+    });
+
+    // ================= HERO SLIDER =================
+    const slides = document.querySelectorAll(".slide");
+    const dots = document.querySelectorAll(".dot");
+    const prevBtn = document.getElementById("prevSlide");
+    const nextBtn = document.getElementById("nextSlide");
+    let currentSlide = 0;
+    let autoSlide;
+
+    function showSlide(index) {
+      currentSlide = (index + slides.length) % slides.length;
+
+      slides.forEach((slide, i) => {
+        slide.classList.toggle("active", i === currentSlide);
+      });
+
+      dots.forEach((dot, i) => {
+        dot.classList.toggle("active", i === currentSlide);
+      });
+    }
+
+    function nextSlide() { showSlide(currentSlide + 1); }
+    function prevSlide() { showSlide(currentSlide - 1); }
+
+    nextBtn.addEventListener("click", () => {
+      nextSlide();
+      restartAutoSlide();
+    });
+
+    prevBtn.addEventListener("click", () => {
+      prevSlide();
+      restartAutoSlide();
+    });
+
+    dots.forEach(dot => {
+      dot.addEventListener("click", () => {
+        showSlide(Number(dot.dataset.slide));
+        restartAutoSlide();
+      });
+    });
+
+    function startAutoSlide() {
+      autoSlide = setInterval(nextSlide, 5000);
+    }
+
+    function restartAutoSlide() {
+      clearInterval(autoSlide);
+      startAutoSlide();
+    }
+
+    startAutoSlide();
+
+    // Pause slider while the user hovers over it.
+    const hero = document.querySelector(".hero");
+    hero.addEventListener("mouseenter", () => clearInterval(autoSlide));
+    hero.addEventListener("mouseleave", startAutoSlide);
+
+    // ================= ACCESSIBLE KEYBOARD SUPPORT =================
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "ArrowRight") {
+        nextSlide();
+        restartAutoSlide();
+      }
+      if (event.key === "ArrowLeft") {
+        prevSlide();
+        restartAutoSlide();
+      }
+    });
+  </script>
+</body>
+</html>
